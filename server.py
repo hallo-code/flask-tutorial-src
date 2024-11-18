@@ -16,7 +16,7 @@ def template(contents, content, id=None):
     contextUI = ''
     if id != None:
 
-        # hier ist eim kommentar
+        # hier 
 
         contextUI = f'''
             <li><a href="/update/{id}/">update</a></li>
