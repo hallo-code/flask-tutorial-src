@@ -15,6 +15,9 @@ topics = [
 def template(contents, content, id=None):
     contextUI = ''
     if id != None:
+
+        # hier ist eim kommentar
+
         contextUI = f'''
             <li><a href="/update/{id}/">update</a></li>
             <li><form action="/delete/{id}/" method="POST"><input type="submit" value="delete"></form></li>
